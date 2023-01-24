@@ -1,0 +1,17 @@
+.bg-index {
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(226,235,240,1) 0%, rgba(198,208,214,1) 35%, rgba(226,235,240,1) 100%);
+}
+.bg-section {
+    background: rgb(226,235,240);
+    background: linear-gradient(45deg, #a18cd1 0%, #fbc2eb 35%, #fbc2eb 100%);
+}
+
+.bg-textfield {
+    background: rgb(0,0,0);
+    background: linear-gradient(45deg, rgba(226,235,240,1) 0%, rgba(198,208,214,1) 35%, rgba(226,235,240,1) 100%);
+}
+.bg-btn {
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, #E0D8B0 0%, #FCFFE7 35%, #FDEEDC 100%);
+}

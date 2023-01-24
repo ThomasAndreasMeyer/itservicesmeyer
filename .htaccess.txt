@@ -1,0 +1,13 @@
+RewriteEngine on
+RewriteBase /
+rewritecond %{http_host} ^itservicesmeyer.de [nc]
+rewriterule ^(.*)$ http://www.itservicesmeyer.de/$1 [r=301,nc]
+
+RewriteEngine on
+RewriteBase /
+rewritecond %{http_host} ^itservicesmeyer.de/ [nc]
+rewriterule ^(.*)$ http://www.itservicesmeyer.de/$1 [r=301,nc]
+
+RewriteEngine On
+Rewritecond %{HTTPS} !=on
+Rewriterule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
